@@ -35,7 +35,7 @@
             {/* Left Column - Image */}
             <div className="w-full relative lg:w-1/2 flex items-center justify-center mb-6 lg:mb-0">
             <img src={postYourReq} alt="Placeholder" className="rounded-lg w-full lg:h-[350px] lg:w-[550px] h-auto max-w-md lg:max-w-xl" />
-            <img src={youTubeIcon} className='absolute lg:left-[230px]  md:left-72   md:w-24 custom820:left-80 w-16 left-32 ' alt="" />
+            <img src={youTubeIcon} className='absolute lg:left-[230px]  md:left-72   md:w-24 custom820:left-80 w-12 left-28 lg:top-36 md:top-20 top-[50px] ' alt="" />
             </div>
 
             {/* Right Column - Tabs and Content */}
