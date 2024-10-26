@@ -16,8 +16,20 @@ export default {
       sm: "640px",
       // => @media (min-width: 640px) { ... }
         custom820: '820px',
-        custom1024: '1024px',
+        custom414: '414px',
+        custom430: '430px',
+        custom412: '412px',
+        custom912: '912px',
+        custom540: '540px',
+        custom344: '344px',
+        custom720: '720px',
 
+
+
+        
+
+        custom360: '360px',
+        
 
       },
     },
