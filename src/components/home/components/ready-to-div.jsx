@@ -3,9 +3,9 @@ import GroupArror from "../../../assets/Home/GroupArror.png";
 
 const ReadyToDiv = () => {
   const rows = [
-    { location1: "Abu Dhabi", location2: "Abu Dhabi" },
-    { location1: "Dubai", location2: "Sharjah" },
-    { location1: "Fujairah", location2: "Ajman" },
+    { location1: "Abu Dhabi", location2: " Dhabi" },
+    { location1: "Sharjah & Ajman", location2: "Fujairah" },
+    { location1: "Ras AI Khaimah", location2: "Umm AI Quwain" },
   ];
 
   return (

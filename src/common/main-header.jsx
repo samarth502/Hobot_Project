@@ -10,30 +10,7 @@ const MainHeader = () => {
   const servicesRef = useRef(null);
   const mobileMenuRef = useRef(null);
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (window.innerWidth >= 768) {
-        if (
-          servicesRef.current &&
-          !servicesRef.current.contains(event.target)
-        ) {
-          setIsServicesOpen(false);
-        }
-        if (
-          resourcesRef.current &&
-          !resourcesRef.current.contains(event.target)
-        ) {
-          setIsResourcesOpen(false);
-        }
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
+  
 
   return (
     <header className="w-full  h-[56px] md:h-[85px] lg:h-[104px]">

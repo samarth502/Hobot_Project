@@ -18,11 +18,11 @@ const HowItWorks = () => {
 
   const boxContent = [
     { id: 1, icon: userIcon, text: "Select Your Role and Sign Up" },
-    { id: 2, icon: editIcon, text: "Buyers Post Your Requirements" },
-    { id: 3, icon: groupIcon, text: "Review, Select, and Contact the Best Suppliers" },
-    { id: 4, icon: handshekIcon, text: "Suppliers Complete your profile and get notified for opportunities" },
-    { id: 5, icon: docIcon, text: "Contact to Buyers and Share your Quote for the service" },
-    { id: 6, icon: layerIcon, text: "Both the Parties can Connect and Make Business Leave a Feedback" },
+    { id: 2, icon:   docIcon, text: "Buyers Post Your Requirements" },
+    { id: 3, icon:  layerIcon, text: "Review, Select, and Contact the Best Suppliers" },
+    { id: 4, icon: editIcon, text: "Suppliers Complete your profile and get notified for opportunities" },
+    { id: 5, icon:  groupIcon, text: "Contact to Buyers and Share your Quote for the service" },
+    { id: 6, icon: handshekIcon, text: "Both the Parties can Connect and Make Business Leave a Feedback" },
   ];
 
   return (

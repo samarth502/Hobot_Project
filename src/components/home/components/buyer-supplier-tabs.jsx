@@ -34,8 +34,8 @@
         <div className="flex flex-col lg:flex-row justify-around items-start w-full bg-[#072F57] py-10 lg:py-28 px-14 md:gap-12 gap-0 lg:px-20">
             {/* Left Column - Image */}
             <div className="w-full relative lg:w-1/2 flex items-center justify-center mb-6 lg:mb-0">
-            <img src={postYourReq} alt="Placeholder" className="rounded-lg w-full lg:h-[350px] h-auto max-w-md lg:max-w-xl" />
-            <img src={youTubeIcon} className='absolute lg:left-[210px]  md:left-72   md:w-24 custom820:left-80' alt="" />
+            <img src={postYourReq} alt="Placeholder" className="rounded-lg w-full lg:h-[350px] lg:w-[550px] h-auto max-w-md lg:max-w-xl" />
+            <img src={youTubeIcon} className='absolute lg:left-[230px]  md:left-72   md:w-24 custom820:left-80' alt="" />
             </div>
 
             {/* Right Column - Tabs and Content */}
